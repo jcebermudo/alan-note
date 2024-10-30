@@ -1,5 +1,211 @@
 {
-  "node": {},
+  "node": {
+    "7f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-up/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-in/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/forgot-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/reset-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-up/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/protected/page": "rsc",
+        "app/(auth-pages)/forgot-password/page": "rsc",
+        "app/protected/reset-password/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    },
+    "7f4cfd57c18472f7fcc4e285617657e9457626884e": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-up/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-in/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/forgot-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/reset-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-up/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/protected/page": "rsc",
+        "app/(auth-pages)/forgot-password/page": "rsc",
+        "app/protected/reset-password/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    },
+    "7f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-up/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-in/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/forgot-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/reset-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-up/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/protected/page": "rsc",
+        "app/(auth-pages)/forgot-password/page": "rsc",
+        "app/protected/reset-password/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    },
+    "7fbc8d0401c62a52b745fa518946611a6fabbaa1bc": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-up/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-in/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/forgot-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/reset-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-up/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/protected/page": "rsc",
+        "app/(auth-pages)/forgot-password/page": "rsc",
+        "app/protected/reset-password/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    },
+    "7ffdfe8739d84755dc766fca4ab3006540fb4e9123": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-up/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/sign-in/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(auth-pages)/forgot-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/protected/reset-password/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fjamescarloe.bermudo%2FProjects%2Falan-note%2Fapp%2Factions.ts%22%2C%5B%5B%227f20c1d0a6be7158ac313a1bf914cb60a4693eb4cb%22%2C%22signUpAction%22%5D%2C%5B%227f4cfd57c18472f7fcc4e285617657e9457626884e%22%2C%22signOutAction%22%5D%2C%5B%227f983cc19dd76f8cdd54c8fe85ccb5e205f4aac6cb%22%2C%22resetPasswordAction%22%5D%2C%5B%227fbc8d0401c62a52b745fa518946611a6fabbaa1bc%22%2C%22forgotPasswordAction%22%5D%2C%5B%227ffdfe8739d84755dc766fca4ab3006540fb4e9123%22%2C%22signInAction%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc",
+        "app/(auth-pages)/sign-up/page": "rsc",
+        "app/(auth-pages)/sign-in/page": "rsc",
+        "app/protected/page": "rsc",
+        "app/(auth-pages)/forgot-password/page": "rsc",
+        "app/protected/reset-password/page": "rsc",
+        "app/_not-found/page": "rsc"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "dlj6HvYj2y7Ozz7tzSYBQ7MwZ34xxjIo930BaIdMtl0="
+  "encryptionKey": "waeeeCRGLO/i3B2J0A/m/Kg/GO3DdBOW+vGoXtQ/Nlg="
 }
