@@ -8,7 +8,7 @@ const prismaRaw =
     globalForPrisma.prisma || new PrismaClient({log: ['query']});
 
 export const prisma = prismaRaw.$extends(fieldEncryptionExtension(
-    {encryptionKey: process.env.PRISMA_FIELD_ENCRYPTION_KEY}
+    {encryptionKey: process.env.PRISMA_FIELD_ENCRYPTION_KEY,}
 )) as PrismaClient;
   
 await migrate(prisma as PrismaClient)
