@@ -8,13 +8,13 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
-
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
     "@prisma/client": "^5.21.1",
     "next": "15.0.2",
     "next-auth": "^5.0.0-beta.25",
+    "prisma-field-encryption": "^1.6.0",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },

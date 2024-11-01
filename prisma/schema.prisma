@@ -7,6 +7,16 @@ generator client {
     provider = "prisma-client-js"
 }
 
+generator fieldEncryptionMigrations {
+    provider = "prisma-field-encryption"
+    output   = "./where/you/want/your/migrations"
+
+    // Optionally opt-in to concurrent model migration.
+    // Since this can cause timeouts and performance issues,
+    // it's off by default, and models are updated sequentially.
+    concurrently = true
+}
+
 model User {
     id            String          @id @default(cuid())
     name          String?
@@ -20,6 +30,7 @@ model User {
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    notes     Note[]
 }
 
 model Account {
@@ -75,4 +86,15 @@ model Authenticator {
     user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@id([userId, credentialID])
+}
+
+// prisma/schema.prisma
+model Note {
+    id        String   @id @default(cuid())
+    title     String   @db.VarChar(255) /// @encrypted
+    content   String   @db.Text /// @encrypted
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+    userId    String
+    user      User     @relation(fields: [userId], references: [id])
 }
