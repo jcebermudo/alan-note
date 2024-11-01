@@ -1,6 +1,7 @@
 'use server'
 import { prisma } from '@/prisma'
 import { auth } from '@/auth'
+import { revalidatePath } from 'next/cache'
 
 export async function addNote() {
     try {
@@ -34,9 +35,12 @@ export async function addNote() {
         })
 
         console.log('Note created:', note)
+
+        revalidatePath('/notes')
         return note
     } catch (err) {
         console.error("Error in addNote:", err)
         throw err
     }
 }
+
