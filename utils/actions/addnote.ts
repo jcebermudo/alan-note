@@ -2,9 +2,12 @@
 import { prisma } from '@/prisma'
 import { auth } from '@/auth'
 import { revalidatePath } from 'next/cache'
+import { redirect } from 'next/navigation'
+import dayjs from 'dayjs'
 
 export async function addNote() {
     try {
+         
         // Add debugging
         console.log('Starting addNote function')
         
@@ -28,19 +31,47 @@ export async function addNote() {
 
         const note = await prisma.note.create({
             data: {
-                title: "New note",
-                content: "New note content",
                 userId: userId,
+                useUpdatedAt: dayjs().format(),
+            },
+        })
+
+        const newNote = await prisma.note.findFirst({
+            where: {
+                id: note.id,
+                userId: userId,
+            },
+            select: {
+                id: true,
             },
         })
 
         console.log('Note created:', note)
 
         revalidatePath('/notes')
+        
+        redirect(`/notes/${newNote?.id}`)
+
         return note
     } catch (err) {
         console.error("Error in addNote:", err)
         throw err
+ 
     }
 }
 
+export async function updateNote(data: {id: string, content: string}) {
+    const {id, content} = data;
+    try {
+        const newNote = await prisma.note.update({
+            where: { id: data.id },
+            data: { content: data.content, useUpdatedAt: dayjs().format() },
+
+        });
+        revalidatePath('/notes')
+        return newNote;
+    } catch (error) {
+        console.error("Error in updateNote:", error)
+        throw Error("Failed to update the form")
+    }
+}

@@ -90,11 +90,12 @@ model Authenticator {
 
 // prisma/schema.prisma
 model Note {
-    id        String   @id @default(cuid())
-    title     String   @db.VarChar(255) /// @encrypted
-    content   String   @db.Text /// @encrypted
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
-    userId    String
-    user      User     @relation(fields: [userId], references: [id])
+    id           String   @id @default(cuid())
+    title        String   @default("Untitled note") @db.VarChar(255) /// @encrypted
+    content      String   @default("{}") @db.Text /// @encrypted
+    createdAt    DateTime @default(now())
+    useUpdatedAt DateTime
+    updatedAt    DateTime @updatedAt
+    userId       String
+    user         User     @relation(fields: [userId], references: [id])
 }

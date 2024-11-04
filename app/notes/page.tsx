@@ -1,5 +1,5 @@
 import { auth } from "@/auth";
-import NoteCollection from "@/components/NoteCollection";
+
 import NoteSidebar from "@/components/NoteSidebar";
 
 export default async function NotesPage() {
@@ -9,7 +9,6 @@ export default async function NotesPage() {
   return (
     <div>
       <NoteSidebar />
-      <NoteCollection />
     </div>
   );
 }
