@@ -20,7 +20,6 @@
     "next-auth": "^5.0.0-beta.25",
     "prisma-field-encryption": "^1.6.0",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-autosave": "^0.4.4",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
   },
   "devDependencies": {
