@@ -1,4 +1,4 @@
-import { addNote } from "@/utils/actions/addnote";
+import { addNote } from "@/utils/actions/note";
 import NoteCollection from "@/components/NoteCollection";
 
 export default function NoteSidebar() {

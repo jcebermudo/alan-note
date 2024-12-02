@@ -61,7 +61,6 @@ export async function addNote() {
 }
 
 export async function updateNote(data: {id: string, content: string}) {
-    const {id, content} = data;
     try {
         const newNote = await prisma.note.update({
             where: { id: data.id },

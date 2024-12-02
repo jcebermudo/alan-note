@@ -13,7 +13,8 @@ const prismaRaw =
 
 export const prisma = prismaRaw.$extends(fieldEncryptionExtension({
   encryptionKey: process.env.PRISMA_FIELD_ENCRYPTION_KEY
-})) as PrismaClient;
+})
+) as PrismaClient;
   
 await migrate(prisma as PrismaClient)
 

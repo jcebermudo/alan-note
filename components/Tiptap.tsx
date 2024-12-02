@@ -4,7 +4,7 @@ import Document from "@tiptap/extension-document";
 import Paragraph from "@tiptap/extension-paragraph";
 import Text from "@tiptap/extension-text";
 import { EditorContent, useEditor } from "@tiptap/react";
-import { updateNote } from "@/utils/actions/addnote";
+import { updateNote } from "@/utils/actions/note";
 
 export default function Tiptap(data: { id: string; content: string }) {
   const { id, content } = data;
